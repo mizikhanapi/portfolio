@@ -39,8 +39,8 @@
                     <?php
 			            else :
 				    ?>
-                    <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"
-                            rel="home"><?php bloginfo( 'name' ); ?></a></p>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/logo.svg" / alt="<?php bloginfo( 'name' ); ?>"></a>
                     <?php
                         endif;
                     ?>
