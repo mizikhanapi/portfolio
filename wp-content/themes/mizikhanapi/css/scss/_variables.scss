@@ -1,3 +1,14 @@
+$break-xs: 575px;
+$break-sm: 576px;
+$break-md: 768px;
+$break-lg: 992px;
+$break-xl: 1200px;
+
+// $min-sm: 576px;
+// $min-md: 768px;
+// $min-lg: 992px;
+// $min-xl: 1200px;
+
 $xs: "(max-width: 575px)";
 $sm: "(min-width: 576px)";
 $md: "(min-width: 768px)";
@@ -14,3 +25,25 @@ $mobile: $max-md;
 $desktop: $md;
 $desktop-medium: "(min-width: 768px) and (max-width: 991px)";
 $desktop-large: $lg;
+
+//Colors
+
+
+//Font Family
+$font: 'Source Sans Pro';
+$font-copy : 'Source Serif Pro';
+
+// Font Sizes
+$font-size-hero: 52px;
+$font-size-h1: 41px;
+$font-size-h2: 32px;
+$font-size-h3: 26px;
+$font-size-h4: 23px;
+$font-size-h5: 20px;
+$font-size-h6: 18px;
+$font-size-body: 18px;
+$font-size-paragraph: 16px;
+$font-size-caption: 14px;
+$font-size-button-large: 23px;
+$font-size-button-medium: 16px;
+$font-size-button-small: 12px;
