@@ -1,3 +1,7 @@
+.site-header {
+	padding: 15px 0;
+}
+
 .header-wrapper {
 	display: flex;
     justify-content: center;
@@ -51,7 +55,16 @@
 }
 
 .main-navigation a {
+	border-bottom: 3px solid transparent;
+	color: #000000;
+	font-weight: 600;
     display: block;
-    padding: 0 15px;
+	margin: 0 15px;
+	padding-bottom: 5px;
 	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.main-navigation a:hover {
+	border-bottom: 3px solid #000000;
 }
