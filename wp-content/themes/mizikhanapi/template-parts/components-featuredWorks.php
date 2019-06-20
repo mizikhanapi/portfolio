@@ -7,7 +7,7 @@
                         );
                         $categories = get_categories($args);
                         foreach ($categories as $item) : ?>
-                            <li><button type="button" class="btn btn-small btn-outline filter-item" data-target="<?php echo $item->term_id;?>"><?php echo $item->name ;?></button></li>
+                            <li><button type="button" class="btn btn-primary filter-item" data-target="<?php echo $item->term_id;?>"><?php echo $item->name ;?></button></li>
                         <?php endforeach; ?>
                     </ul>
                 </div>
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                 </div>
-                
+
         <script>
             var ajax_nonce = '<?php echo wp_create_nonce("fetch_articles"); ?>';
         </script>
