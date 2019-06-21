@@ -3,6 +3,11 @@ body {
 }
 
 .container-fluid {
+    @media (min-width: 1626px) {
+        padding-right: 0;
+        padding-left: 0;
+        width: 1534px;
+    }
     @media #{ $desktop-large } {
         padding-right: 128px;
         padding-left: 128px;

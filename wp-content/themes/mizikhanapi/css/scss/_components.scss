@@ -8,12 +8,22 @@
 
 
 .article-card {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
     margin: 16px 0;
     position: relative;
-    height: 291px;
+    height: 329px;
     overflow: hidden;
+    @media #{ $mobile } {
+        height: 270px;
+    }
+    @media #{ $desktop-medium } {
+        height: 152px;
+    }
     .detail {
+        cursor: pointer;
         position: absolute;
         bottom: 0;
         height: 100%;
